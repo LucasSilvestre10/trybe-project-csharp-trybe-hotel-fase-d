@@ -8,5 +8,6 @@ namespace TrybeHotel.Repository
         IEnumerable<CityDto> GetCities();
         CityDto AddCity(City city);
         CityDto UpdateCity(City city);
+
     }
 }
